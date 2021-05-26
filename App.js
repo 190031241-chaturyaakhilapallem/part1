@@ -1,6 +1,6 @@
 import React from 'react'
-
 const App = () => {
+
   const course = 'Half Stack application development'
   const part1 = 'Fundamentals of React'
   const exercises1 = 10
@@ -9,6 +9,7 @@ const App = () => {
   const part3 = 'State of a component'
   const exercises3 = 14
 
+ 
   return (
     <div>
       <h1>{course}</h1>
@@ -25,5 +26,6 @@ const App = () => {
     </div>
   )
 }
+
 
 export default App
